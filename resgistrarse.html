@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Registrarse</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-light" style="background-color: #8ecae6; ">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-size: 22px; font-weight:normal; color: #e10000; font-weight: bold;">
+        <img src="Imagenes actividad 1/Blog Viaje.jpg" alt="" width="70" height="52"> 
+      </a>
+    <ul class="nav justify-content-center" >
+    <li class="nav-item" >
+      <a class="nav-link active" aria-current="page" href="index.html" style=" color: #040212; font-size: 20px; ">Home</a>
+      
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style=" color: #040212; font-size: 20px;">Sobre Nosotros</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#" style=" color: #040212; font-size: 20px;">Contacto</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="resgistrarse.html" style=" color: #040212; font-size: 20px;">Registrarse</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="iniciarSesion.html"style=" color: #040212; font-size: 20px;">Iniciar Sesion</a>
+     </li>
+  </ul>
+</div>
+</nav>
+
+  <h1 style="color: #e10000; text-align: center; margin-top: 35px;">FORMULARIO DE REGISTRO</h1>
+  <form class="myForm">
+    <div class="container mt-2 ms-2" >
+      <div class="form-row" >
+        <div class="form-group col-md-6 ">
+          <label for="inputEmail4" style ="color: #040212">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="inputPassword4" style="color: #040212" >Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+      </div>
+      <div class="form-group col-md-6 mb-3">
+        <label for="inputAddress" style="color: #040212">dirección </label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-3">
+          <label for="inputCity" style="color: #040212">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Mao, Islas Baleares">
+        </div>
+        <div class="form-group col-md-4 mb-3">
+          <label for="inputState" style="color: #040212">País</label>
+          <select id="inputState" class="form-control">
+            <option selected>Selecionar...</option>
+            <option>España</option>
+            <option>Marruecos</option>
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputZip" style="color: #040212">Código Postal</label>
+          <input type="text" class="form-control" id="inputZip"placeholder="codigo postal">
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center;">
+        <button type="submit" class="btn btn-primary mt-2 mb-3" style="background-color:#f98c3d; border-color: #f98c3d; justify-content: center;color: #040212 ;  font-weight: bold;">Registrarse</button>
+      </div>
+    </div>
+  </form>
+
+</body>
+</html>
