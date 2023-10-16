@@ -10,74 +10,85 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-light" style="background-color: #8ecae6; ">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8ecae6;">
     <div class="container">
-      <a class="navbar-brand" href="#" style="font-size: 22px; font-weight:normal; color: #e10000; font-weight: bold;">
-        <img src="Imagenes actividad 1/Blog Viaje.jpg" alt="" width="70" height="52"> 
+      <a class="navbar-brand" href="#">
+        <img src="Imagenes actividad 1/Blog Viaje.jpg" alt="" width="70" height="52">
       </a>
-    <ul class="nav justify-content-center" >
-    <li class="nav-item" >
-      <a class="nav-link active" aria-current="page" href="index.html" style=" color: #040212; font-size: 20px; ">Home</a>
-      
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="sobreNosotros.html" style=" color: #040212; font-size: 20px;">Sobre Nosotros</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-link" href="#" style=" color: #040212; font-size: 20px;">Contacto</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="resgistrarse.html" style=" color: #040212; font-size: 20px;">Registrarse</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="iniciarSesion.html"style=" color: #040212; font-size: 20px;">Iniciar Sesion</a>
-     </li>
-  </ul>
-</div>
-</nav>
-
-  <h2 style="color: #e10000; text-align: center; margin-top: 35px;">FORMULARIO DE REGISTRO</h2>
-  <form class="myForm">
-    <div class="container mt-2 ms-2" >
-      <div class="form-row" >
-        <div class="form-group col-md-6 ">
-          <label for="inputEmail4" style ="color: #040212">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-        </div>
-        <div class="form-group col-md-6 mb-3">
-          <label for="inputPassword4" style="color: #040212" >Password</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-        </div>
-      </div>
-      <div class="form-group col-md-6 mb-3">
-        <label for="inputAddress" style="color: #040212">dirección </label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-      </div>
-
-      <div class="form-row">
-        <div class="form-group col-md-6 mb-3">
-          <label for="inputCity" style="color: #040212">Ciudad</label>
-          <input type="text" class="form-control" id="inputCity" placeholder="Mao, Islas Baleares">
-        </div>
-        <div class="form-group col-md-4 mb-3">
-          <label for="inputState" style="color: #040212">País</label>
-          <select id="inputState" class="form-control">
-            <option selected>Selecionar...</option>
-            <option>España</option>
-            <option>Marruecos</option>
-          </select>
-        </div>
-        <div class="form-group col-md-4">
-          <label for="inputZip" style="color: #040212">Código Postal</label>
-          <input type="text" class="form-control" id="inputZip"placeholder="codigo postal">
-        </div>
-      </div>
-      <div style="display: flex; justify-content: center;">
-        <button type="submit" class="btn btn-primary mt-2 mb-3" style="background-color:#f98c3d; border-color: #f98c3d; justify-content: center;color: #040212 ;  font-weight: bold;">Registrarse</button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html" style="color:#040212 ;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobreNosotros.html "  style="color:#040212 ;" >Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html"  style="color:#040212 ;">Contacto</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="iniciarSesion.html"  style="color:#040212 ;">Iniciar Sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resgistrarse.html"  style="color:#040212 ;">Registrarse</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </form>
+  </nav>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn " type="submit" style="color: #f98c3d; background-color: #040212; font-weight: bold;">OK</button>
+      </form>
+    </div>
+  </nav>
 
+  <div class="container mt-5">
+    <h2 style="color: #e10000; text-align: center;">FORMULARIO DE REGISTRO</h2>
+    <form class="myForm">
+      <div class="container">
+        <div class="form-group">
+          <label for="inputEmail4" style="color: #040212">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="inputPassword4" style="color: #040212">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress" style="color: #040212">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity" style="color: #040212">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Mao, Islas Baleares">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState" style="color: #040212">País</label>
+            <select id="inputState" class="form-control">
+              <option selected>Seleccionar...</option>
+              <option>España</option>
+              <option>Marruecos</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip" style="color: #040212">Código Postal</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="Código Postal">
+          </div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+          <button type="submit" class="btn btn-primary mt-2" style="background-color: #f98c3d; border-color: #f98c3d; color: #040212; font-weight: bold;">Registrarse</button>
+        </div>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
