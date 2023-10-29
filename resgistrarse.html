@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <title>Registrarse</title>
 </head>
 <body>
@@ -42,58 +43,117 @@
         </ul>
       </div>
     </div>
-  </nav>
-  <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn " type="submit" style="color: #f98c3d; background-color: #040212; font-weight: bold;">OK</button>
-      </form>
+    <div>
+       <span>
+       <input class="form-control m-2" type="search" placeholder="Search" aria-label="Search">
+      </span>
     </div>
+   
   </nav>
 
-  <div class="container mt-5">
-    <h2 class="h2_registrarse">FORMULARIO DE REGISTRO</h2>
-    <form class="myForm">
-      <div class="container">
-        <div class="form-group">
-          <label for="inputEmail4" style="color: #040212">Email</label>
-          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <label for="inputPassword4" style="color: #040212">Password</label>
-          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress" style="color: #040212">Dirección</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity" style="color: #040212">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="Mao, Islas Baleares">
+  <center>
+  <div class="container ">
+  <h2 class="h2_registrarse">FORMULARIO DE REGISTRO</h2>
+      <form class="myForm">
+       
+          <div class="row ">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <label for="inputNombre " id="zoneTexte">Nombre completo</label>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <input  type="text" class="form-control" id="inputNombre" placeholder="Youssef Malki" class="inputFormulario">
+            </div>
           </div>
-          <div class="form-group col-md-4">
-            <label for="inputState" style="color: #040212">País</label>
-            <select id="inputState" class="form-control">
-              <option selected>Seleccionar...</option>
-              <option>España</option>
-              <option>Marruecos</option>
-            </select>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <label for="inputEmail4" id="zoneTexte">Email</label>
+  
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email" class="inputFormulario">
+            </div>
           </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip" style="color: #040212">Código Postal</label>
-            <input type="text" class="form-control" id="inputZip" placeholder="Código Postal">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <label for="inputPassword4" id="zoneTexte">Password</label>
+              
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <input  type="password" class="form-control" id="inputPassword4" placeholder="Password"class="inputFormulario">
+            </div>
           </div>
-        </div>
-        <div style="display: flex; justify-content: center;">
-          <button type="submit" class="btn btn-primary mt-2" style="background-color: #f98c3d; border-color: #f98c3d; color: #040212; font-weight: bold;">Registrarse</button>
-        </div>
-      </div>
-    </form>
-  </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <label for="inputAddress" id="zoneTexte">Dirección</label>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <input  type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"class="inputFormulario">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <label for="inputCity" id="zoneTexte">Ciudad</label>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <input type="text" class="form-control" id="inputCity" placeholder="Mao, Islas Baleares" class="inputFormulario">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <label for="inputZip" id="zoneTexte">Código Postal</label>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <input  type="text" class="form-control" id="inputZip" placeholder="Código Postal" class="inputFormulario">
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <label for="inputState" id="zoneTexte">País</label>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <select id="inputState" class="form-control">
+                <option selected>Seleccionar...</option>
+                <option>Marruecos</option>
+                <option>España</option>
+              </select>
+            </div>
+          </div>
+  
+           <div class="avaters">
+            <div class="row ">
+              <div class="col">
+                <img class="av" src="./Imagenes actividad 1/hombre.png" alt="Avatar 1">
+                <input type="radio" name="av" id="avat1">
+              </div>
 
+              <div class="col">
+                <img class="av" src="./Imagenes actividad 1/perfil.png" alt="Avatar 2" >
+                <input type="radio" name="av" id="avat2">
+              </div>
+              <div class="col">
+                <img  class="av" src="./Imagenes actividad 1/mujer.png" alt="Avatar 3">
+                <input type="radio" name="av" id="avat3">
+              </div>
+            </div>
+           </div>
+          
+          
+          <div class="row">
+            <div class="col">
+              <div style="display: flex; justify-content: center;">
+                <button type="submit" class="btn btn-primary mt-2" style="background-color: #f98c3d; border-color: #f98c3d; color: #040212; font-weight: bold;">Registrarse</button>
+              </div>
+             </div>
+          </div>
+        
+      </form>
+    
+  </div>
+  </center>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
+
