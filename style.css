@@ -30,29 +30,50 @@ a:hover{
     background-color: #feffe2 !important;
     background-color: rgba(6, 6, 0, 0.5);
   }
-  .row {
-    display: flex;
-    align-items:center;
-  }
+
 .avaters{
   margin: 15px;
   justify-content: space-around;
 }
+
 .av{
   width: 50px;
   height: 50px;
+  opacity: 0.5;
 }
+.av:hover{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
 input, .inputFormulario{
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-size: 18px;
 }
+#btn_submit{
+  background-color: #f98c3d;
+  border-color: #f98c3d; 
+  color: #040212;
+  font-weight: bold;
+}
+#btn_reset{
+  background-color: #8ecae6;
+  border-color: #8ecae6;
+  color: #040212;
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
 
+  
   .h2_registrarse{
-    color: #e00000; 
+    color: #feffe2; 
     text-align: center;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
+    
   }
   .myFormIniciarSesion{
 
