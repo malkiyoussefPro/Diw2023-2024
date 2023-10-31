@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+  background-image:url(Imagenes\ actividad\ 1/registrarse.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+a:hover{
+    color: #ee6907 !important;
+
+}  
+
+.btn:hover{
+    box-shadow: 0px 10px 10px   #040212;
+  }
+
+
+.myForm{
+    border: #040212 3px solid ;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #feffe2 !important;
+    background-color: rgba(6, 6, 0, 0.5);
+  }
+
+.avaters{
+  margin: 15px;
+  justify-content: space-around;
+}
+.av:checked{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+
+}
+.av{
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+  transition: width 1s;
+}
+.av:hover{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  width: 100px;
+}
+
+input, .inputFormulario{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+}
+#btn_submit{
+  background-color: #f98c3d;
+  border-color: #f98c3d; 
+  color: #040212;
+  font-weight: bold;
+
+}
+#btn_reset{
+  background-color: #8ecae6;
+  border-color: #8ecae6;
+  color: #040212;
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+  
+  .h2_registrarse{
+    color: #feffe2; 
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    
+  }
+  .myFormIniciarSesion{
+
+    border: #040212 3px solid ;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  #zoneTexte{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #040212;
+  }
+  .card{
+        border: #040212 3px solid ;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+  }
+  .form-control{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 250px;
+    
+  }
+hr{
+  size: "10";
+}
