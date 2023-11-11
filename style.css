@@ -4,12 +4,6 @@
     padding: 0;
     box-sizing: border-box ;
 }
-body{
-  background-image:url(Imagenes\ actividad\ 1/registrarse.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-}
 
 a:hover{
     color: #ee6907 !important;
