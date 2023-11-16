@@ -1,0 +1,134 @@
+
+//Variables 
+$background-nav : #8ecae6;
+$color-nav: #040212;
+$color-hover: #ee6907;
+$color-icon: #e00000;
+$color-background: #fefef2;
+$boxShadow: 0px 10px 10px $background-nav;
+$width: 150px;
+$height: 150px;
+$max-width: 45px;
+$size-icon: 20px;
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $color-background;
+    box-sizing: border-box;
+}
+
+//Nesting : Apply styles using a nested structure
+nav{
+    background-color:$background-nav;
+}
+.navbar-nav{
+    .nav-item{
+        .nav-link {
+            color: $color-nav;
+            &:hover{
+                color: $color-hover;
+            }
+        }  
+    }
+}
+
+.navbar-brand{
+    img{
+        width: 70px;
+        height: 52;
+    }
+}
+
+//profil 
+
+.container{
+    .row{
+       .col{
+            #profil{
+                max-width: $max-width;
+                margin: 15px;
+                }
+            }
+        }  
+    }
+//% : Reuse properties for other selectors.
+
+%marg-padd{ 
+    margin: 5px;
+    padding: 5px;
+}
+
+//@extend  : Reuse properties for other selectors.
+.icon{
+    max-width: $max-width;
+    @extend %marg-padd ;
+}
+
+
+
+ .form-control{
+        border-radius: 10px;
+        height: 40px;
+        width: 90px;
+        border-color: $color-nav;
+        border: 2px solid grayscale($color: #e3d0d0);
+    }
+.btn{
+    color:$color-hover; 
+    background-color:$color-nav;
+    font-weight: bold;
+
+}
+
+//iconos
+// @mixin : Reuse properties for other selectors.
+@mixin iconos{
+    color: $color-hover;
+    margin: 15px;
+    padding: 15px;
+    text-align: justify;
+}
+#like{
+ 
+   @include iconos;
+}
+#dislike{
+   
+    @include iconos;
+   
+}
+#share{
+    @include iconos; 
+}
+
+//Post
+    #container{ 
+        border: 2px solid grayscale($color: #e3d0d0);
+        margin: 10px auto;
+        background-color: #e8e8e8;
+      
+        #post-img{
+            opacity: 0.8;
+            transition: transform 3s;
+        }
+        img:hover{
+            transform:  scale(1.1);
+            opacity: 1;
+        }
+        h3{
+            text-align: center;
+        }
+        #post-text{    
+            @extend %marg-padd ;
+            text-justify:auto;
+            
+        }#interctaciones{
+           background-color: $color-background;
+           margin: 5px;
+           border-radius: 15px;
+           
+        }
+    }
+
+

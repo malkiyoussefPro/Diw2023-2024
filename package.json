@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.2"
-  }
+  },
+  "name": "diw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-Actividad_3  Actividad_3/style.scss dist/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "description": ""
 }

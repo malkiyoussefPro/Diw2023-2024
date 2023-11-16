@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefef2;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #8ecae6;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #040212;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ee6907;
+}
+
+.navbar-brand img {
+  width: 70px;
+  height: 52;
+}
+
+.container .row .col #profil {
+  max-width: 45px;
+  margin: 15px;
+}
+
+#container #post-text, .icon {
+  margin: 5px;
+  padding: 5px;
+}
+
+.icon {
+  max-width: 45px;
+}
+
+.form-control {
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  border-color: #040212;
+  border: 2px solid #dadada;
+}
+
+.btn {
+  color: #ee6907;
+  background-color: #040212;
+  font-weight: bold;
+}
+
+#like {
+  color: #ee6907;
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+
+#dislike {
+  color: #ee6907;
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+
+#share {
+  color: #ee6907;
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+
+#container {
+  border: 2px solid #dadada;
+  margin: 10px auto;
+  background-color: #e8e8e8;
+}
+#container #post-img {
+  opacity: 0.8;
+  transition: transform 3s;
+}
+#container img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+#container h3 {
+  text-align: center;
+}
+#container #post-text {
+  text-justify: auto;
+}
+#container #interctaciones {
+  background-color: #fefef2;
+  margin: 5px;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */

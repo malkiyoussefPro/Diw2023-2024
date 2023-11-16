@@ -10,10 +10,10 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8ecae6;">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="Imagenes actividad 1/Blog Viaje.jpg" alt="" width="70" height="52">
+        <img src="imagenes/Blog Viaje.jpg" alt="" width="70" height="52">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,21 +21,21 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="index.html" style="color:#040212 ;">Home</a>
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="sobreNosotros.html "  style="color:#040212 ;" >Sobre Nosotros</a>
+            <a class="nav-link" href="sobreNosotros.html " >Sobre Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacto.html"  style="color:#040212 ;">Contacto</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="iniciarSesion.html"  style="color:#040212 ;">Iniciar Sesion</a>
+            <a class="nav-link" href="iniciarSesion.html">Iniciar Sesion</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resgistrarse.html"  style="color:#040212 ;">Registrarse</a>
+            <a class="nav-link" href="resgistrarse.html">Registrarse</a>
           </li>
         </ul>
       </div>
@@ -45,28 +45,22 @@
     <div class="container-fluid">
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn " type="submit" style="color: #f98c3d; background-color: #040212; font-weight: bold;">OK</button>
+        <button class="btn " type="submit">OK</button>
       </form>
     </div>
   </nav>
 
-  <div class="" style="margin: 15px;">
-
+  <div class="container">
     <div class="row">
       <div class="col">
-        <img src="Imagenes actividad 1/programador.png" style="max-width: 50px; margin-bottom: 15px;" alt="">
-        
-      </div>
-      <div class="col">
-          <p>
+       <p> <img id="profil"  src="Imagenes actividad 1/mujer.png">
         compartido fecha 15/01/2023
       </p>
       </div>
     </div>
-  
-    <div class="row">
+    <div class="row" class="post">
       <div class="col">
-        <img class="d-block w-100" src="Imagenes actividad 1/bali-2698078_1280.jpg">
+        <img class="d-block w-100" src="Imagenes actividad 1/lake-2178502_1280.jpg">
       </div>
       <div class="col">
         <h3>title post1</h3>
@@ -86,33 +80,30 @@
         </p>
       </div>
       <div class="row">
-        <div class="col d-flex justify-content-around my-2">
-            <p>
-                <i class="fa-solid fa-heart">Like</i>
-                <i class="fa-solid fa-heart-crack">Dislike</i>
-                <i class="fa-solid fa-share">Share</i>
-            </p>
+        <div class="col">
+              <i class="fa-solid fa-heart" id="like">Like</i>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-heart-crack" id="dislike">Dislike</i>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-share" id="share">Share</i>
         </div>
     </div>
   </div>
   </div>
 
-  <div class="" style="margin: 15px;">
+  <div class="container">
 
     <div class="row">
       <div class="col">
-        <img src="Imagenes actividad 1/programador.png" style="max-width: 50px; margin-bottom: 15px;" alt="">
-        
-      </div>
-      <div class="col">
-          <p>
-        compartido fecha 15/01/2023
+       <p> <img id="profil"  src="Imagenes actividad 1/programador.png">
+        compartido fecha 16/01/2023
       </p>
       </div>
-     
     </div>
   
-    <div class="row">
+    <div class="row" id="post">
       <div class="col">
         <img class="d-block w-100" src="Imagenes actividad 1/bali-2698078_1280.jpg">
       </div>
@@ -135,12 +126,14 @@
       </div>
   </div>
   <div class="row">
-    <div class="col d-flex justify-content-between my-2">
-        <p>
-            <i class="fa-solid fa-heart">Like</i>
-            <i class="fa-solid fa-heart-crack">Dislike</i>
-            <i class="fa-solid fa-share">Share</i>
-        </p>
+    <div class="col">
+          <i class="fa-solid fa-heart" id="like">Like</i>
+    </div>
+    <div class="col">
+      <i class="fa-solid fa-heart-crack" id="dislike">Dislike</i>
+    </div>
+    <div class="col">
+      <i class="fa-solid fa-share" id="share">Share</i>
     </div>
 </div>
 

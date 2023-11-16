@@ -64,7 +64,7 @@ select{
   transition: border 5s ease-in-out;
 }
 input:hover{
-  box-shadow:15px 15px 15px #040212;
+  box-shadow:0px 10px 10px #040212;
   transform: scale(1.2);
 }
 select:hover{
@@ -150,3 +150,58 @@ label:hover{
 hr{
   size: "10";
 }
+
+
+nav {
+  background-color: #8ecae6;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #040212;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ee6907;
+}
+
+.navbar-brand img {
+  width: 70px;
+  height: 52;
+}
+
+.container .row .col #profil {
+  max-width: 45px;
+  margin: 15px;
+}
+
+.icon {
+  max-width: 45px;
+}
+
+button {
+  color: #ee6907;
+  background-color: #040212;
+  font-weight: bold;
+}
+
+#like {
+  color: #e00000;
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+
+#dislike {
+  color: #e00000;
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+
+#share {
+  color: #e00000;
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */
